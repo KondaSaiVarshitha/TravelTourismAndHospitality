@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <meta http-equiv="refresh" content="4;url=/" />
+    <title>Invalid data</title>
+    <style>
+        body{
+
+        background-color :#009999;
+        }
+        .pipo1 {
+        font-size: 50px;
+        align :center;
+           top: 300px;
+            position :absolute;
+            left:600px;
+        }
+
+        .pipo2{
+        font-size:30px;
+        align:center;
+        top: 360px;
+        left:580px;
+        position :absolute;
+        }
+                .pipo3{
+
+        align:center;
+        top: 460px;
+        left:730px;
+        position :absolute;
+        }
+    </style>
+</head>
+<body><center>
+<div class="pipo1">
+    Invalid Data
+</div>
+<div class="pipo2" >
+    Payment failed,Try again...
+</div>
+
+</center>
+<script>
+  window.watsonAssistantChatOptions = {
+      integrationID: "ebaa27f6-866a-477d-9ed8-13d417a20815", // The ID of this integration.
+      region: "eu-gb", // The region your integration is hosted in.
+      serviceInstanceID: "48452fe5-7efa-4b7d-9a5c-86797a467b4e", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+    document.head.appendChild(t);
+  });
+</script>
+<script>
+    Weglot.initialize({
+        api_key: 'wg_4a0e7b13e64feb82e8cfdbf0c86d7ac70'
+    });
+</script>
+</body>
+</html>

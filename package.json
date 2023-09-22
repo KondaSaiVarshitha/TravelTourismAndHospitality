@@ -1,0 +1,11 @@
+{
+  "name": "travel-main",
+  "version": "1.0.0",
+  "description": "This is basic tours booking website. This site is made up for particular tours company. User can book their tours online.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
